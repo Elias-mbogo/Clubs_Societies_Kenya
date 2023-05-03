@@ -1,0 +1,61 @@
+{% include "base.django" %}
+
+{% block header %}
+    <div class="club-side1"></div>
+        <div class="club-head">
+            <h2> Chess Club </h2>
+        </div>
+    <div class="club-side2"></div>
+{% endblock header %}
+
+{% block section %}
+
+    <div class = "card-image">
+        <div class="post-header">Informatrix</div>
+        <div class="card-image1-img"></div>
+        <div class="notes">Enjoyed wonderful competitions in Brookhurst School. Friendly people</div>
+    </div>
+
+    <div class = "comment">
+        <div class="post-header">Smithsonians</div>
+        <div class="notes">Anouncements: We will be holding competions at our institution Miranda</div>
+    </div>
+
+    <div class = "card-image">
+        <div class="post-header">Goojara</div>
+        <div class="card-image2-img"></div>
+        <div class="notes">"Mastering chess: Guides and Tips", 
+        This is hands down the best chess book for anyone one who wishes to be the best. </div>
+    </div>
+
+    <div class = "comment">
+        <div class="post-header">Presline</div>
+        <div class="notes">We are holding finals this week at Nairobi 
+        twin tours from 8:00a.m to 2:00p.m if any one of you are around you are cordially invited. </div>
+    </div>
+
+    <div class = "card-image">
+        <div class="post-header">SweetFlow</div>
+        <div class="card-image3-img"></div>
+        <div class="notes">Seminar for the chinese world competitions 
+        begin tomorrow at Westgate Conference center. Enrol now!</div>
+    </div>
+
+    <div class = "comment">
+        <div class="post-header">Infomatrix</div>
+        <div class="notes">We will begin competitions for the championship price of the best player of Rongai, Held at Multimedia University</div>
+    </div>
+
+    <div class = "comment">
+        <div class="post-header">CaucasianBlacks</div>
+        <div class="notes">Hello There ! Our group "Caucasian Blacks" just joined from Nyeri happy to see all of you</div>
+    </div>
+
+    <div class = "card-image">
+        <div class="post-header">Stooflix</div>
+        <div class="card-image4-img"></div>
+        <div class="notes">Wonderful gym at ezekiels place the winners from around can be given free whole month subscription.</div>
+    </div>
+
+
+{% endblock section %}

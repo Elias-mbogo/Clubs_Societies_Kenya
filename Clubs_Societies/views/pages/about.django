@@ -1,0 +1,5 @@
+{% extends "base.django" %}
+
+{% block section %}
+<p> This is the <strong>About</strong> page rendered by tera templating engine. </p>
+{% endblock %}

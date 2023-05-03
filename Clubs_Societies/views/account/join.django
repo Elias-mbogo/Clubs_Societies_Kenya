@@ -1,0 +1,29 @@
+{% include "account/signup.django" %}
+
+{% block form %}
+
+    <p> Which institution and club's group do you wish to join? </p>
+    <div class="form-stylings">
+        <form action="/join" method="post" enctype="multipart/form-data">
+            <label for="institutions">Which Institution ?</label><br>
+            <select name="institutions" id="institutions">
+                <option value="Multimedia University">Multimedia</option>
+                <option value="Catholic University">CUEA</option>
+                <option value="African Nazarene University">African Nazarene</option>
+                <option value="Cooperative University">Cooperative</option>
+                <option value="JKUAT-Karen University">JKUAT</option>
+            </select><br>
+
+            <label for="clubs">Which Club ?</label><br>
+            <select name="clubs" id="clubs">
+                <option value="Chess">Chess</option>
+                <option value="Drama">Drama</option>
+                <option value="Music">Music</option>
+                <option value="IT">IT</option>
+                <option value="Saint John's Ambulance">St John</option>
+            </select><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+{% endblock form %}

@@ -1,0 +1,47 @@
+{% extends "base.django" %}
+
+{% block heading %}
+<div class="groups-title">
+    <h1>Infomatrix</h1>
+</div>
+{% endblock %}
+
+{% block section %}
+
+    <div class = "chat-sender">
+        <div class="chat"><p>Hello Guys, welcome to this new group for the multimedia chess club.</p></div>
+        <div class="chat-footer">Peter Solomon</div>
+    </div>
+
+    <div class = "chat-sender2">
+        <div class="chat-image"></div>
+        <div class="chat-footer-span">Peter Solomon</div>
+    </div>
+
+    <div class = "chat-receiver">
+        <div class="chat">Hello guys my name is Elias, Thanks for giving me the oppurtunity to join this group.</div>
+        <div class="chat-footer">Elias Mwangi</div>
+    </div>
+
+        <div class = "chat-sender">
+        <div class="chat">This group was created by our patron Mrs.Yvette who is the admin for the group.</div>
+        <div class="chat-footer">Peter Solomon</div>
+    </div>
+
+    <div class = "chat-sender">
+        <div class="chat">Yes Thanks Peter, can you alert all members to sign in to this site, all the important communications will use this platform</div>
+        <div class="chat-footer">Yvette Michelles</div>
+    </div>
+
+    <div class = "chat-sender">
+        <div class="chat">Our next week meeting will be held from 3:00pm</div>
+        <div class="chat-footer">Peter Solomon</div>
+    </div>
+
+    <div class = "chat-receiver">
+        <div class="chat"><p>Thanks noted, where will we meet?</p></div>
+        <div class="chat-footer">Elias Mwangi</div>
+    </div>
+
+
+{% endblock %}

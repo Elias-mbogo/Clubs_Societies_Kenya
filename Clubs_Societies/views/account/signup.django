@@ -1,0 +1,28 @@
+{% extends "base.django" %}
+
+{% block section %}
+        <div class="form-position">
+            <div class="form-side"></div>
+            <div class="form-main">
+                {% block form %}
+                <p>Are you new here ? Please enter your details below</p>
+                <div class="form-stylings_signup">
+                    <form action="/api/signup" method="post">
+                        <label for="username">Username:</label><br>
+                        <input type="text" id="username" name="username" placeholder="Smithsonian"><br>
+                        <label for="firstname">FirstName:</label><br>
+                        <input type="text" id="firstname" name= "firstname" placeholder="John"><br>
+                        <label for="lastname">Lastname:</label><br>
+                        <input type="text" id="lastname" name= "lastname" placeholder="Doe"><br>
+                        <label for="useremail">Email:</label><br>
+                        <input type="text" id="useremail" name= "useremail" placeholder="passenger123@gmail.com"><br>
+                        <label for="passwords">Password:</label><br>
+                        <input type="password" name= "passwords" id="passwords"><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                {% endblock form%}
+            </div>
+            <div class="form-side"></div>
+        </div>
+{% endblock section %}

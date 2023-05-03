@@ -1,0 +1,13 @@
+{% extends "account/signup.django" %}
+
+{% block form %}
+        <p>Please input which institution and club you wish to enroll below:</p>
+
+        <div class="form-stylings">
+            <form action="/api/register-group" method="post" enctype="multipart/form-data">
+                <label for="group">Group Name:</label><br>
+                <input type="text" id="group" name="group" placeholder="'Informatrix'" required><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+{% endblock form %}

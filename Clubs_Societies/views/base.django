@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% block head %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ Title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="Schoolheader.css">
+{% endblock head %}
+</head>
+<body>
+    <nav>
+    {% block nav %}
+        <div class="title">
+            <a href="/ ">Clubs.Societies</a>
+        </div>
+        <div class="navigation-links">
+            <div><a href="/signup">Account</a></div>
+            <div><a href="/club">Clubs</a></div>
+            <div><a href="/group">Group</a></div>
+            </ul>
+        </div>
+    {% endblock nav %}    
+    </nav>
+    <header>
+    {% block header %}
+        <div class="side1"></div>
+        <div class="head">
+        {% block heading %}
+            <h1>Clubs and Societies of Kenya</h1>
+            <p>Welcome to the clubs and Societies platform <br>
+            for all students of higher institutions of learning in kenya</p>
+        {% endblock %}
+        </div>
+        <div class="side2"></div>
+    {% endblock header %}
+    </header>
+    <div class="section">
+    {% block section %}
+    <div class= "intro_paragraph">
+        <div class="paragraph-side1"></div>
+        <div class="main_paragraph">
+            <p>For all students partcipating in Clubs and Societies
+            in their respective institutions this is the place for you. 
+            Come to this platform and get to engage with fellow students from around
+            the country.</p>
+            <p>Any and all clubs are allowed and we provide a means for inclusion for any or all clubs.
+             Put simply this site is sub-divided into two sections as outlined below:<p>
+        </div>
+        <div class="paragraph-side2"></div>
+    </div>
+
+    <div class="site-sections">
+        <div class="visual-section1">
+        </div>
+
+        <div class="explanation">
+            <p>For all students partcipating in Clubs and Societies
+            in their respective institutions this is the place for you. 
+            Come to this platform and get to engage with fellow students from around
+            the country.</p>
+            <p>Any and all clubs are allowed and we provide a means for inclusion for any or all clubs.
+             Put simply this site is sub-divided into two sections as outlined below:<p>
+        </div>
+
+        <div class="visual-section2">
+        </div>
+
+        <div class="explanation">
+            <p>For all students partcipating in Clubs and Societies
+            in their respective institutions this is the place for you. 
+            Come to this platform and get to engage with fellow students from around
+            the country.</p>
+            <p>Any and all clubs are allowed and we provide a means for inclusion for any or all clubs.
+             Put simply this site is sub-divided into two sections as outlined below:<p>
+        </div>
+    </div>
+
+    <!--
+    <div class = "possibilities">
+        <div class="item1"></div>
+        <div class="item2"></div>
+        <div class="item3"></div>
+        <div class="item4"></div>
+        <div class="item5"></div>
+        <div class="item6"></div>
+        <div class="item7"></div>
+        <div class="item8"></div>
+        <div class="item9"></div>
+    </div>
+
+    <div class="urge">
+    <div class="urge-side1"></div>
+
+    <div class="main-urge">
+        <p> If you wish to engage or participate 
+        create an account and enjoy meeting your fellow collegueas</p>
+    </div>
+
+    <div class="urge-side2"></div>
+
+    </div>
+    -->
+    {% endblock section %}</div>
+    </div>
+    <footer>
+    {% block footer %}
+        <div class="container">
+
+        </div>
+        <div class="container">
+
+        </div>
+        <div class="container">
+            
+    {% endblock footer %}
+    </footer>
+</body>
+</html>

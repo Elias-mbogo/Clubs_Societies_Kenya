@@ -1,0 +1,6 @@
+{% extends "base.django"%}
+
+{% block section %}
+<p>Welcome to the home Page</p>
+
+{% endblock section%}

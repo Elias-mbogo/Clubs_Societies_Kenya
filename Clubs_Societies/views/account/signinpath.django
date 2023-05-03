@@ -1,0 +1,11 @@
+{% extends "account/signup.django" %}
+
+{% block form %}
+        <p>Are you here to:</p>
+        <div class="form-stylings">
+            <ul>
+                <li><a href="/api/register-club" style="text-decoration:none; color:red;">Register a club's group</a></li>
+                <li><a href="/join" style="text-decoration:none; color:red;">Join a club's group</a></li>
+            </ul>
+        <div class="form-stylings">
+{% endblock %}
